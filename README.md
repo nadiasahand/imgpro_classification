@@ -1289,7 +1289,8 @@ plt.ylabel('true value');
 
 
     
-![png](output_21_0.png)
+![output_21_0](https://user-images.githubusercontent.com/25687155/177501497-947c13d1-3873-4315-aa1f-9d0fb1aca9e9.png)
+
     
 
 

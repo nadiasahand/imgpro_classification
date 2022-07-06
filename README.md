@@ -25,11 +25,11 @@ test_datagen = ImageDataGenerator(rescale=1./255)
 #### flow from directory function
 Requires a specific folder structure for dataset. Different classes should be placed in different sub-folders but inside the same parent folder. Downloading kaggle's cats and dog dataset using this [link](https://www.microsoft.com/en-us/download/details.aspx?id=54765) provides the following dataset structure:
 
-![1.png](attachment:1.png)
+![1](https://user-images.githubusercontent.com/25687155/177500304-45246877-84e2-428d-b5d6-5c4b4b36c41e.png)
 
 In order to use flow_from_directory method, we need to change it to the following:
 
-![2.png](attachment:2.png)
+![2](https://user-images.githubusercontent.com/25687155/177500354-879886d2-36b7-4e59-bf53-197738872a34.png)
 
 The following script automates the process. Download the dataset and put the "PetsImage" in the project root.
 
